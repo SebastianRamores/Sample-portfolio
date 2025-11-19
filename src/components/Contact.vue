@@ -40,7 +40,8 @@
                     subject: subject,
                     name: name.value,
                     email: email.value,
-                    message: message.value
+                    message: message.value,
+                    "g-recaptcha-response": recaptchaToken.value
                 })
             });
 
